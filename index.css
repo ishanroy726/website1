@@ -1,0 +1,90 @@
+:root {
+  				font-size: 16px; }
+
+
+
+			.myself-content{
+				background-color: #1ac6ff;
+				margin: 2px;
+				border-radius: 10px;
+				height:auto;
+				background-repeat: cover;
+				width:100%;
+				
+
+
+			}
+			.technology-content{
+				background-color: #a3c2c2;
+				width:100%;
+				margin: 2px;
+				height:auto;
+				border-radius: 10px;
+			}
+			.interest-content{
+				background-color: #33ff33;
+				width:100%;
+				margin: 2px;
+				height:auto;
+				border-radius: 10px;
+			}
+			p{
+				font-family: system-ui;
+				font-size:20px;
+				font-style:italic;
+				font-stretch: normal;
+				font-weight:bold;
+				color:white;
+                margin-left: 20px;
+			}
+            .details{
+                float:center;
+                font-family: system-ui;
+                font-size:20px;
+                font-style:italic;
+                font-stretch: normal;
+                font-weight:bold;
+                color:black;
+
+            }
+			.icon-group {
+  				margin-top: 20px; }
+  			.icon-group .icon {
+    			margin-right: 10px;
+    			width: 25px; }
+
+    			@media screen and (min-width: 780px){
+    				.myself-content{
+    					width:100%;
+    				}
+    				.technology-content{
+    					width:100%;
+    				}
+    				.interest-content{
+    					width:100%;
+    				}
+    			}
+    			@media screen and (min-width: 480px) and (max-width: 767px){
+    				.myself-content{
+    					height:600px;
+    				}
+    				.technology-content{
+    					height:600px;
+    				}
+    				.interest-content{
+    					height:600px;
+    				}
+    			}
+    			@media screen and (max-width: 480px){
+    				.myself-content{
+    					height:900px;
+    				}
+    				.technology-content{
+    					height:900px;
+    				}
+    				.interest-content{
+    					height:900px;
+    				}
+    			}
+
+		
